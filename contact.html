@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="stylesheet.css" type="text/css">
+    <link rel="icon" href="images\logos\logoFavicon.png">
+    <title>Contact | Michael Pierluissi</title>
+</head>
+
+
+<body>
+	<header>
+		<img src="images/banner.png" alt="" class="pageBanner">
+		<div class="pageNavDiv">
+			<a href="index.html"><img src="images/logos/logoSmall.svg" alt="" class="pageLogo"></a>
+			<nav class="pageNav">
+				<a href="index.html"><button class="pageButton">HOME</button></a>
+				<a href="portfolio.html"><button class="pageButton">PORTFOLIO</button></a>
+				<a href="about.html"><button class="pageButton">ABOUT</button></a>
+				<a href="filename-assistant.html"><button class="pageButton">UCS UTILITY</button></a>
+			</nav>
+		</div>
+	</header>
+	<div class="pageTitle">
+		<h1>CONTACT</h1>
+	</div>
+
+	<div class="contactForm">
+		<form method="post" action="email.php">
+				<div class="nameDiv">
+					<label for="Name">Name *</label><br>
+					<input type="text" id="Name" name="Name" class="formField" required>
+				</div>
+			<br>
+				<div class="emailDiv">
+				<label for="Email">Email address *</label><br>
+					<input type="email" id="Email" name="Email" class="formField" required>
+				</div>
+			<br>
+				<div class="msgDiv">
+					<label for="Message" >Message</label><br>
+					<textarea id="Message" name="Message" rows="10" maxlength="3000" class="formField" required></textarea>
+				</div>
+			<br>
+			<div class="contactButtonDiv">
+				<button type="submit" class="contactButton">Send</button>
+			</div>
+		</form>
+	</div>
+    <footer class="pageFooter">Coded & Designed by Michael Pierluissi, 2022. All Rights Reserved.</footer>
+</body>
+</html>
