@@ -36,6 +36,18 @@ img {
     float: left;
 }
 
+.cert-container {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    margin: 2vw 0;
+}
+
+.cert-img {
+    width: auto;
+    height: 3vw;
+}
+
 #social-github {
     left: 0px;
     width: 50px;
